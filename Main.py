@@ -3,23 +3,22 @@
 # Mini Project 1
 
 
-import yfinance as yf
 import numpy as np
 import matplotlib.pyplot as plt
+import yfinance as yf
 
 
-#rok = yf.Ticker("ROK")
+
+# rok = yf.Ticker("ROK")
 
 # get stock info
-#rok.info
+# rok.info
 
 # get historical market data
-#hist = rok.history(period="max")
-
-#tickers = yf.Tickers('rok csco abb sbgsy ge')
+# hist = rok.history(period="max")
 
 data = yf.download("ROK", start="2022-09-01", end="2022-09-16")
-#print(data)
+# print(data)
 
 rokPrices = []
 
@@ -29,6 +28,11 @@ for price in data['Adj Close']:
 print(rokPrices)
 
 # Create a numpy array
-rokarray = np.array([rokPrices])
+rokarray = np.array(rokPrices)
+
+plt.plot(rokarray)
+plt.ylabel('Stock Price')
+plt.show()
+
 
 
