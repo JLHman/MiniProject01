@@ -13,7 +13,7 @@ import yfinance as yf
 # get historical market data
 #hist = rok.history(period="max")
 
-#tickers = yf.Tickers('rok csco abb sbgsy ge')
+tickers = yf.Tickers('rok csco abb sbgsy ge')
 
 data = yf.download("ROK", start="2022-09-01", end="2022-09-16")
 #print(data)
