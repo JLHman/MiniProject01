@@ -1,7 +1,7 @@
 # INF601 - Advanced Programming in Python
 # Jesse Heckman
 # Mini Project 1
-import matplotlib.pyplot
+
 import numpy as np
 import yfinance as yf
 import matplotlib.pyplot as plt
