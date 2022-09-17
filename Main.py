@@ -4,8 +4,9 @@
 
 
 import numpy as np
-import matplotlib.pyplot as plt
 import yfinance as yf
+import matplotlib.pyplot as plt
+
 
 
 
@@ -29,9 +30,10 @@ print(rokPrices)
 
 # Create a numpy array
 rokarray = np.array(rokPrices)
-
+# Create a Graph with matplotlib and label y axis
 plt.plot(rokarray)
 plt.ylabel('Stock Price')
+# Show Graph
 plt.show()
 
 
