@@ -1,8 +1,7 @@
 # INF601 - Advanced Programming in Python
 # Jesse Heckman
 # Mini Project 1
-
-
+import matplotlib.pyplot
 import numpy as np
 import yfinance as yf
 import matplotlib.pyplot as plt
@@ -33,8 +32,14 @@ rokarray = np.array(rokPrices)
 # Create a Graph with matplotlib and label y axis
 plt.plot(rokarray)
 plt.ylabel('Stock Price')
+plt.xlabel('Days')
+
+# Save Graph
+plt.savefig('charts/rok.png')
+
 # Show Graph
 plt.show()
+
 
 
 
