@@ -1,2 +1,5 @@
-# MiniProject01
-Project for INF 601 to track stock tickers
+ INF601 - Advanced Programming in Python
+ Jesse Heckman
+
+Mini Project 1
+
