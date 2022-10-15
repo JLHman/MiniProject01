@@ -21,7 +21,7 @@ Fort Hayes University.  The objectives of the assignment were as follows
                  and how to execute the program. Please use the GitHub flavor of Markdown.
 
 ## Install 
-`pip install -r requirements text`
+`pip install -r requirements.txt`
 This will install all of the modules that you will need for the program. 
 
 **Special note!** If you chose to import the packages individually make sure to use matplotlib 3.5.3.
