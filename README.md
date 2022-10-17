@@ -3,7 +3,7 @@
 Mini Project 1 
  
 Python program to extract and display data about several stocks.  This project was completed for the INF 601 class at 
-Fort Hayes University.  The objectives of the assignment were as follows
+Fort Hays University.  The objectives of the assignment were as follows
 ## Objectives
 
 - (5/5 points) Initial comments with your name, class and project at the top of your .py file.
